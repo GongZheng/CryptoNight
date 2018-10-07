@@ -1,0 +1,14 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Boost CryptoNight}
+\author{Guohong Liao, Zhijie Liu, Peiran Luo, Zheng Gong}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+In blockchain applications, the proof-of-work (PoW) mechanism is pivotal for realizing its design rationale. A good PoW mechanism should be equal for distributed miners with different computation powers, such a blockchain system that is build on this PoW can be uncenterized and robust. CryptoNight is a memory-hard hash function. It is designed to be inefficiently computable on GPU, FPGA and ASIC architectures. The CryptoNight algorithm's first step is initializing large scratchpad with pseudo-random data. The next step is numerous read/write operations at pseudo-random addresses contained in the scratchpad. The final step is hashing the entire scratchpad to produce the resulting value.
+\end{document}
